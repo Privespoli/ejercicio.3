@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="stylesheet" href="/assets/css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil de la Banda</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; background: #121212; color: white; display: flex; justify-content: center; padding: 40px; }
+        .card { background: #1e1e1e; border: 2px solid #333; padding: 20px; border-radius: 15px; width: 400px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .header { border-bottom: 2px solid #ff4757; margin-bottom: 15px; }
+        h1 { color: #ff4757; margin: 0; }
+        .info { margin: 10px 0; font-size: 1.1em; }
+        .lista-canciones { background: #2f3542; padding: 15px; border-radius: 8px; }
+        ul { list-style: none; padding: 0; }
+        li { padding: 5px 0; border-bottom: 1px solid #57606f; color: #ffa502; }
+        .status { font-weight: bold; text-transform: uppercase; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="header">
+            <h1 id="nombreBanda">---</h1>
+            <p id="genero">---</p>
+        </div>
+        
+        <div class="info">
+            Integrantes: <span id="numIntegrantes">0</span><br>
+            ¿En gira?: <span id="enGira" class="status">---</span>
+        </div>
+
+        <div class="lista-canciones">
+            <strong>Próximo Concierto:</strong>
+            <ul>
+                <li id="tema1">Cargando...</li>
+                <li id="tema2">Cargando...</li>
+                <li id="tema3">Cargando...</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="/assets/java/alumnoA.js"></script>
+    <script src="alumno_b.js"></script>
+</body>
+</html>
