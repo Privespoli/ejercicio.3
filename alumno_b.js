@@ -17,3 +17,5 @@ const colores = {
 };
 
 estadoGira.style.color = colores[estadoGira.innerText];
+
+console.log("canciones")
